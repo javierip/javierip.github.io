@@ -16,6 +16,9 @@ source ./venv-mkdocs/bin/activate
 # run
 (venv-mkdocs) $ mkdocs serve 
 
+# deploy
+(venv-mkdocs) $ mkdocs gh-deploy
+
 # when done
 (venv-mkdocs) $ deactivate
 ```
