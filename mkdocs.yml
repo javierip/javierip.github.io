@@ -1,0 +1,37 @@
+# Project information
+site_name: "Javier Iparraguirre"
+site_description: "Engineer, educator, researcher, and consultant."
+site_url: "https://www.javieriparraguirre.net/"
+
+# Copyright
+copyright: "Copyright &copy; javieriparraguirre.net"
+
+nav:
+  - About: index.md
+  - Publications: publications.md
+  - Contact: contact.md
+
+# Configuration
+theme:
+  name: material
+  logo: images/logo.png
+  favicon: images/favicon.ico
+  palette:
+    primary: deep orange
+    accent: indigo
+
+plugins:
+  - search:
+      lang: en
+
+extra:
+  analytics:
+    provider: google
+    property: UA-6882631-5
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/javierip
+      name: Javier at GitHub
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/javieripa
+      name: Javier at Twitter
