@@ -3,6 +3,8 @@
 ## Links
 * [MkDocs: Project documentation with Markdown](https://www.mkdocs.org/)
 * [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
+* [Deploying your docs](https://www.mkdocs.org/user-guide/deploying-your-docs/)
+* [Custom domains and GitHub Pages](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/about-custom-domains-and-github-pages)
 
 ## Setup and Run
 
