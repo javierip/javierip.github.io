@@ -1,10 +1,10 @@
 # Project information
 site_name: "Javier Iparraguirre"
 site_description: "Engineer, educator, researcher, and consultant."
-site_url: http://www.ventanialabs.com
+site_url: https://javierip.github.io
 
 # Copyright
-copyright: "Copyright &copy; javieriparraguirre.net"
+copyright: "Copyright &copy; Javier Iparraguirre"
 
 nav:
   - About: index.md
