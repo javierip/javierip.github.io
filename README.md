@@ -12,8 +12,8 @@
 Linux instructions:
 
 ```bash
-python3 -m venv --system-site-packages ./venv-mkdocs
-source ./venv-mkdocs/bin/activate 
+$ python3 -m venv --system-site-packages ./venv-mkdocs
+$ source ./venv-mkdocs/bin/activate 
 (venv-mkdocs) $ pip install --upgrade pip
 (venv-mkdocs) $ pip install -r requirements.txt
 (venv-mkdocs) $ mkdocs new .
@@ -37,7 +37,7 @@ source ./venv-mkdocs/bin/activate
 
 ## Project layout
 
-```console
+```
     mkdocs.yml    # The configuration file.
     docs/
         index.md  # The documentation homepage.
