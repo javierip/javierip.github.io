@@ -1,6 +1,7 @@
 # Javier Iparraguirre >> Personal site
 
 ## Related Links
+
 * [MkDocs: Project documentation with Markdown](https://www.mkdocs.org/)
 * [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
 * [Deploying your docs](https://www.mkdocs.org/user-guide/deploying-your-docs/)
@@ -8,13 +9,13 @@
 
 ## Setup and Run
 
-Linux instructions
+Linux instructions:
 
-```
+```console
 python3 -m venv --system-site-packages ./venv-mkdocs
 source ./venv-mkdocs/bin/activate 
 (venv-mkdocs) $ pip install --upgrade pip
-(venv-mkdocs) $ pip install mkdocs-material
+(venv-mkdocs) $ pip install -r requirements.txt
 (venv-mkdocs) $ mkdocs new .
 
 # run
@@ -36,8 +37,9 @@ source ./venv-mkdocs/bin/activate
 
 ## Project layout
 
+```console
     mkdocs.yml    # The configuration file.
     docs/
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
-
+```
