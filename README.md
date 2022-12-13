@@ -11,7 +11,7 @@
 
 Linux instructions:
 
-```console
+```bash
 python3 -m venv --system-site-packages ./venv-mkdocs
 source ./venv-mkdocs/bin/activate 
 (venv-mkdocs) $ pip install --upgrade pip
