@@ -1,5 +1,7 @@
 # Javier Iparraguirre >> Personal site
 
+See the site live at [https://javierip.github.io/](https://javierip.github.io/)
+
 ## Related Links
 
 * [MkDocs: Project documentation with Markdown](https://www.mkdocs.org/)
