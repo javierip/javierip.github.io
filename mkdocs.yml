@@ -1,6 +1,6 @@
 # Project information
 site_name: "Javier Iparraguirre"
-site_description: "Engineer, educator, researcher, and consultant."
+site_description: "Value creation + Innovation + Teams"
 site_url: https://javierip.github.io
 
 # Copyright
@@ -17,7 +17,7 @@ theme:
   logo: images/logo.png
   favicon: images/favicon.ico
   palette:
-    primary: deep orange
+    primary: light blue
     accent: indigo
 
 plugins:
