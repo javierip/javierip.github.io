@@ -20,6 +20,10 @@ $ source ./venv-mkdocs/bin/activate
 (venv-mkdocs) $ pip install -r requirements.txt
 (venv-mkdocs) $ mkdocs new .
 
+# Updating packages before update
+(venv-mkdocs) $ pip install --upgrade -r requirements.txt
+
+
 # run
 (venv-mkdocs) $ mkdocs serve 
 
