@@ -2,14 +2,13 @@
 
 A list of my publications is available at <a href="https://scholar.google.com.ar/citations?hl=en&user=PNNFrAQAAAAJ&view_op=list_works&sortby=pubdate" target="_blank">Google Scholar</a>.
 
-## Book
-
-* Title: **Making Computing More Efficient Based on New Hardware Architectures: A Multi-core Processing Approach**
-* Author: Javier Iparraguirre
-* Publisher: VDM Verlag Dr. Müller. June, 2010.
-* You can buy it at <a href="https://www.amazon.com/Making-Computing-Efficient-Hardware-Architectures/dp/3639178513/ref=sr_1_1?ie=UTF8&s=books&qid=1279828856&sr=8-1" target="_blank">amazon.com</a>
-
 ## Selected Papers
+
+### nano-JEPA: Joint Embedding Predictive Architecture that runs on a regular computer
+
+* Paper title: **nano-JEPA: Democratizing Video Understanding with Personal Computers**
+* Full text [here](https://drive.google.com/file/d/11vOMCMP7_4FWqvXLhkEkX-7KgNgwdsij/view)
+* Source code repository at [GitHub](https://github.com/BHI-Research/nano-jepa)
 
 ### Action detection using multimodal transformers
 
@@ -32,4 +31,9 @@ A list of my publications is available at <a href="https://scholar.google.com.ar
 * Source code repository at [GitHub](https://github.com/javierip/flash-video-summarization)
 * Additional information at [Google Scholar](https://scholar.google.com.ar/citations?view_op=view_citation&hl=en&user=PNNFrAQAAAAJ&sortby=pubdate&citation_for_view=PNNFrAQAAAAJ:BqipwSGYUEgC)
 
+## Book
 
+* Title: **Making Computing More Efficient Based on New Hardware Architectures: A Multi-core Processing Approach**
+* Author: Javier Iparraguirre
+* Publisher: VDM Verlag Dr. Müller. June, 2010.
+* You can buy it at <a href="https://www.amazon.com/Making-Computing-Efficient-Hardware-Architectures/dp/3639178513/ref=sr_1_1?ie=UTF8&s=books&qid=1279828856&sr=8-1" target="_blank">amazon.com</a>

@@ -14,24 +14,19 @@ See the site live at [https://javierip.github.io/](https://javierip.github.io/)
 Linux instructions:
 
 ```bash
-$ python3 -m venv --system-site-packages ./venv-mkdocs
-$ source ./venv-mkdocs/bin/activate 
-(venv-mkdocs) $ pip install --upgrade pip
-(venv-mkdocs) $ pip install -r requirements.txt
-(venv-mkdocs) $ mkdocs new .
+(base) $ conda create -n mkdocs-env python=3.12 
+(base) conda $ activate mkdocs-env
+(mkdocs-env) $ pip install -r requirements.txt
+(mkdocs-env) $ mkdocs new .
 
-# Updating packages before update
-(venv-mkdocs) $ pip install --upgrade -r requirements.txt
-
+# Updating packages before updating
+(mkdocs-env) $ pip install --upgrade -r requirements.txt
 
 # run
-(venv-mkdocs) $ mkdocs serve 
+(mkdocs-env) $ mkdocs serve 
 
 # deploy
-(venv-mkdocs) $ mkdocs gh-deploy
-
-# when done
-(venv-mkdocs) $ deactivate
+(mkdocs-env) $ mkdocs gh-deploy
 ```
 
 ## Commands
