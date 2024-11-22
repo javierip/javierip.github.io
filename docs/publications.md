@@ -4,7 +4,7 @@ A list of my publications is available at <a href="https://scholar.google.com.ar
 
 ## Selected Papers
 
-### nano-JEPA: Joint Embedding Predictive Architecture that runs on a regular computer
+### nano-JEPA: Joint Embedding Predictive Architecture that runs on a personal computer
 
 * Paper title: **nano-JEPA: Democratizing Video Understanding with Personal Computers**
 * Full text [here](https://drive.google.com/file/d/11vOMCMP7_4FWqvXLhkEkX-7KgNgwdsij/view)

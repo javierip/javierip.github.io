@@ -11,8 +11,6 @@ See the site live at [https://javierip.github.io/](https://javierip.github.io/)
 
 ## Setup and Run
 
-Linux instructions:
-
 ```bash
 (base) $ conda create -n mkdocs-env python=3.12 
 (base) conda $ activate mkdocs-env
