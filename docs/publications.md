@@ -4,6 +4,12 @@ A list of my publications is available at <a href="https://scholar.google.com.ar
 
 ## Selected Papers
 
+### pico-JEPA: Understanding Video with Ultra-Light Models and Voting
+
+* Paper title: **pico-JEPA: Understanding Video with Ultra-Light Models and Collective Wisdom**
+* Full text (Spanish) [here](https://github.com/BHI-Research/pico-JEPA/blob/main/publications/pico-JEPA-paper-ES.pdf)
+* Source code repository at [GitHub](https://github.com/BHI-Research/pico-JEPA/tree/main)
+
 ### nano-JEPA: Joint Embedding Predictive Architecture that runs on a personal computer
 
 * Paper title: **nano-JEPA: Democratizing Video Understanding with Personal Computers**
@@ -17,7 +23,7 @@ A list of my publications is available at <a href="https://scholar.google.com.ar
 * Source code repository at [GitHub](https://github.com/BHI-Research/AVA_MDETR)
 * Additional information at [Google Scholar](https://scholar.google.com.ar/citations?view_op=view_citation&hl=en&user=PNNFrAQAAAAJ&sortby=pubdate&citation_for_view=PNNFrAQAAAAJ:xtRiw3GOFMkC)
 
-### Open source evaluation framework for video summarization algorithms
+### Open-source evaluation framework for video summarization algorithms
 
 * Paper title: **An open source quantitative evaluation framework for automatic video summarization algorithms**
 * Full text [here](http://sedici.unlp.edu.ar/handle/10915/89188)
