@@ -13,11 +13,11 @@ See the site live at [https://javierip.github.io/](https://javierip.github.io/)
 
 ```bash
 (base) $ conda create -n mkdocs-env python=3.12 
-(base) conda $ activate mkdocs-env
+(base) $ conda activate mkdocs-env
 (mkdocs-env) $ pip install -r requirements.txt
 (mkdocs-env) $ mkdocs new .
 
-# Updating packages before updating
+# Updating packages
 (mkdocs-env) $ pip install --upgrade -r requirements.txt
 
 # run
