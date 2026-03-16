@@ -1,14 +1,16 @@
 # Project information
 site_name: "Javier Iparraguirre"
-site_description: "Value creation + Innovation + Teams"
+site_description: "Director of Machine Learning | PhD & Fulbright Scholar | Computer Vision & Unsupervised Learning"
 site_url: https://javierip.github.io
+repo_url: https://github.com/javierip/javierip.github.io
+repo_name: javierip/javierip.github.io
 
 # Copyright
 copyright: "Copyright &copy; Javier Iparraguirre"
 
 nav:
   - About: index.md
-  - Publications: publications.md
+  - Projects: projects.md
   - Contact: contact.md
 
 # Configuration
@@ -16,15 +18,42 @@ theme:
   name: material
   logo: images/logo.png
   favicon: images/favicon.ico
+  font:
+    text: Inter
+    code: JetBrains Mono
   palette:
-    primary: light blue
-    accent: indigo
+    - scheme: default
+      primary: light blue
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: light blue
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - content.tooltips
 
 plugins:
   - search:
       lang: en
 
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+
 extra:
+  generator: false
   analytics:
     provider: google
     property: G-8ZT4TE5E92
@@ -32,9 +61,12 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/javierip
       name: Javier at GitHub
-    - icon: fontawesome/brands/twitter
+    - icon: fontawesome/brands/x-twitter
       link: https://twitter.com/javieripa
-      name: Javier at Twitter
+      name: Javier at X
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/jiparraguirre/
       name: Javier at LinkedIn
+    - icon: fontawesome/regular/envelope
+      link: mailto:j.iparraguirre@computer.org
+      name: Email Javier
