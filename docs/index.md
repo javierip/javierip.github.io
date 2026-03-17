@@ -4,7 +4,7 @@
   <img src="images/javier-iparraguirre.jpg" width="180" style="border-radius: 50%;" alt="Javier Iparraguirre">
 </div>
 
-Javier Iparraguirre is a machine learning leader and researcher with a background spanning industry, academia, and international scholarship.
+Javier Iparraguirre is a machine learning leader and researcher with a background spanning industry and academia.
 
 ## Education
 
