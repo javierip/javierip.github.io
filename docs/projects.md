@@ -7,7 +7,7 @@ A full list of projects and publications is available on [Google Scholar](https:
 ### pico-JEPA: Understanding Video with Ultra-Light Models and Collective Wisdom
 
 - Title: **pico-JEPA: Understanding Video with Ultra-Light Models and Collective Wisdom**
-- Year / Venue: 2024 · BHI Research
+- Year / Venue: 2025 · CACIC
 - [Slides (English)](https://github.com/BHI-Research/pico-JEPA/blob/main/publications/pico-JEPA-presentation-EN.pdf){:target="_blank"}
 - [Full text (Spanish)](https://github.com/BHI-Research/pico-JEPA/blob/main/publications/pico-JEPA-paper-ES.pdf){:target="_blank"}
 - [Source code](https://github.com/BHI-Research/pico-JEPA/tree/main){:target="_blank"} — GitHub
@@ -17,7 +17,7 @@ A full list of projects and publications is available on [Google Scholar](https:
 ### nano-JEPA: Joint Embedding Predictive Architecture for Personal Computers
 
 - Title: **nano-JEPA: Democratizing Video Understanding with Personal Computers**
-- Year / Venue: 2024 · BHI Research
+- Year / Venue: 2024 · CACIC
 - [Full text](https://drive.google.com/file/d/11vOMCMP7_4FWqvXLhkEkX-7KgNgwdsij/view){:target="_blank"}
 - [Source code](https://github.com/BHI-Research/nano-jepa){:target="_blank"} — GitHub
 
@@ -26,7 +26,7 @@ A full list of projects and publications is available on [Google Scholar](https:
 ### Open-Source Evaluation Framework for Video Summarization Algorithms
 
 - Title: **An Open Source Quantitative Evaluation Framework for Automatic Video Summarization Algorithms**
-- Year / Venue: 2018 · SEDICI / UNLP
+- Year / Venue: 2018 · JAIIO
 - [Full text](http://sedici.unlp.edu.ar/handle/10915/89188){:target="_blank"}
 - [Source code](https://github.com/BHI-Research/ost-python){:target="_blank"} — GitHub
 
