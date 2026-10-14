@@ -35,7 +35,6 @@ theme:
         icon: material/weather-sunny
         name: Switch to light mode
   features:
-    - navigation.instant
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.footer
@@ -47,7 +46,24 @@ theme:
 
 plugins:
   - search:
-      lang: en
+      lang:
+        - en
+        - es
+  - i18n:
+      docs_structure: suffix
+      languages:
+        - locale: en
+          name: English
+          default: true
+          build: true
+        - locale: es
+          name: Español
+          build: true
+          site_description: "Director de Machine Learning | Video e IA multimodal | Doctor · Becario Fulbright"
+          nav_translations:
+            About: Sobre mí
+            Research: Investigación
+            Contact: Contacto
 
 markdown_extensions:
   - admonition

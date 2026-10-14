@@ -6,8 +6,8 @@ hide:
 
 # Javier Iparraguirre
 
-<div style="text-align:center; margin-bottom: 1.5rem;">
-  <img src="images/javier-iparraguirre.jpg" width="180" style="border-radius: 50%;" alt="Javier Iparraguirre">
+<div style="text-align:center; margin-bottom: 1.5rem;" markdown>
+![Javier Iparraguirre](images/javier-iparraguirre.jpg){ width="180" style="border-radius: 50%;" }
 </div>
 
 I am **Director of Machine Learning** at [Teladoc Health](https://www.teladochealth.com/){:target="_blank"}, where I lead teams that turn research and development into tangible business outcomes. I am also a **Professor** at [Universidad Tecnológica Nacional, Facultad Regional Bahía Blanca](https://www.frbb.utn.edu.ar/){:target="_blank"} and a researcher with the [BHI-Research](https://bhi-research.github.io/){:target="_blank"} group, where my work focuses on video understanding and efficient, self-supervised models. I am based in Bahía Blanca, Argentina.
