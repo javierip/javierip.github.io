@@ -15,7 +15,6 @@ See the site live at [https://javierip.github.io/](https://javierip.github.io/)
 (base) $ conda create -n mkdocs-env python=3.12 
 (base) $ conda activate mkdocs-env
 (mkdocs-env) $ pip install -r requirements.txt
-(mkdocs-env) $ mkdocs new .
 
 # Updating packages
 (mkdocs-env) $ pip install --upgrade -r requirements.txt
@@ -39,6 +38,11 @@ See the site live at [https://javierip.github.io/](https://javierip.github.io/)
 ```
     mkdocs.yml    # The configuration file.
     docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+        index.md     # Homepage (English).
+        index.es.md  # Homepage (Spanish).
+        ...          # Other pages, images and other files.
 ```
+
+## Languages
+
+The site is published in English (`/`) and Spanish (`/es/`) with [mkdocs-static-i18n](https://ultrabug.github.io/mkdocs-static-i18n/). Each page `page.md` has a Spanish translation `page.es.md`; when you edit one, update the other. Spanish menu labels are set under `nav_translations` in `mkdocs.yml`.
