@@ -1,9 +1,16 @@
+---
+hide:
+  - navigation
+  - toc
+---
+
 # Contact
 
-Ways to contact me:
+The best way to reach me is by email: **[j.iparraguirre@computer.org](mailto:j.iparraguirre@computer.org)**
 
-* E-mail address: **<j.iparraguirre@computer.org>**
-* [LinkedIn profile](https://www.linkedin.com/in/jiparraguirre/)
-* [Google Scholar profile](https://scholar.google.com.ar/citations?hl=en&user=PNNFrAQAAAAJ&view_op=list_works&sortby=pubdate)
-* [GitHub profile](https://github.com/javierip)
-* [X (or Twitter) profile](https://twitter.com/javieripa)
+You can also find me on:
+
+- [LinkedIn](https://www.linkedin.com/in/jiparraguirre/){:target="_blank"}
+- [Google Scholar](https://scholar.google.com/citations?user=PNNFrAQAAAAJ&hl=en&view_op=list_works&sortby=pubdate){:target="_blank"}
+- [GitHub](https://github.com/javierip){:target="_blank"} · [BHI-Research](https://github.com/BHI-Research){:target="_blank"}
+- [X](https://x.com/javieripa){:target="_blank"}

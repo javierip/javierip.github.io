@@ -1,6 +1,6 @@
 # Project information
 site_name: "Javier Iparraguirre"
-site_description: "Director of Machine Learning | PhD & Fulbright Scholar | Computer Vision & Unsupervised Learning"
+site_description: "Director of Machine Learning | Video & Multimodal AI | PhD · Fulbright Scholar"
 site_url: https://javierip.github.io/
 repo_url: https://github.com/javierip/javierip.github.io
 repo_name: javierip/javierip.github.io
@@ -10,7 +10,7 @@ copyright: "Copyright &copy; Javier Iparraguirre"
 
 nav:
   - About: index.md
-  - Projects: projects.md
+  - Research: projects.md
   - Contact: contact.md
 
 # Configuration
@@ -36,6 +36,10 @@ theme:
         name: Switch to light mode
   features:
     - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.footer
+    - toc.follow
     - navigation.top
     - search.highlight
     - search.suggest
@@ -60,13 +64,16 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/javierip
-      name: Javier at GitHub
-    - icon: fontawesome/brands/x-twitter
-      link: https://twitter.com/javieripa
-      name: Javier at X
+      name: Javier on GitHub
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/jiparraguirre/
-      name: Javier at LinkedIn
+      name: Javier on LinkedIn
+    - icon: fontawesome/brands/google-scholar
+      link: https://scholar.google.com/citations?user=PNNFrAQAAAAJ&hl=en&view_op=list_works&sortby=pubdate
+      name: Javier on Google Scholar
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/javieripa
+      name: Javier on X
     - icon: fontawesome/regular/envelope
       link: mailto:j.iparraguirre@computer.org
       name: Email Javier
