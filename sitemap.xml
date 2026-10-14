@@ -1,15 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
-         <loc>https://javierip.github.io/</loc>
-         <lastmod>2026-03-18</lastmod>
+        <loc>https://javierip.github.io/</loc>
+        <lastmod>2026-10-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://javierip.github.io/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://javierip.github.io/es/"/>
     </url>
     <url>
-         <loc>https://javierip.github.io/contact/</loc>
-         <lastmod>2026-03-18</lastmod>
+        <loc>https://javierip.github.io/contact/</loc>
+        <lastmod>2026-10-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://javierip.github.io/contact/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://javierip.github.io/es/contact/"/>
     </url>
     <url>
-         <loc>https://javierip.github.io/projects/</loc>
-         <lastmod>2026-03-18</lastmod>
+        <loc>https://javierip.github.io/projects/</loc>
+        <lastmod>2026-10-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://javierip.github.io/projects/"/>
+        <xhtml:link rel="alternate" hreflang="es" href="https://javierip.github.io/es/projects/"/>
+    </url>
+    <url>
+        <loc>https://javierip.github.io/es/</loc>
+        <lastmod>2026-10-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://javierip.github.io/es/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://javierip.github.io/"/>
+    </url>
+    <url>
+        <loc>https://javierip.github.io/es/contact/</loc>
+        <lastmod>2026-10-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://javierip.github.io/es/contact/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://javierip.github.io/contact/"/>
+    </url>
+    <url>
+        <loc>https://javierip.github.io/es/projects/</loc>
+        <lastmod>2026-10-14</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="es" href="https://javierip.github.io/es/projects/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://javierip.github.io/projects/"/>
     </url>
 </urlset>
