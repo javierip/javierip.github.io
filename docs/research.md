@@ -5,7 +5,13 @@ hide:
 
 # Research
 
-Selected work, most recent first. Jump to [Publications](#publications) or [Open-Source Projects](#open-source-projects). The full list is on [Google Scholar](https://scholar.google.com/citations?user=PNNFrAQAAAAJ&hl=en&view_op=list_works&sortby=pubdate){:target="_blank"}. Most of it was done with my colleagues at the [BHI-Research](https://bhi-research.github.io/){:target="_blank"} group.
+My research with the **[BHI-Research](https://bhi-research.github.io/){:target="_blank"}** group targets a practical question: how can advanced AI understand video well **without** huge models and data centers? We work on three connected themes:
+
+* **Small, efficient world models (JEPA):** Joint-Embedding Predictive Architectures such as [nano-JEPA](https://github.com/BHI-Research/nano-jepa){:target="_blank"} and [pico-JEPA](https://github.com/BHI-Research/pico-JEPA){:target="_blank"} learn by predicting in a compact representation space instead of reconstructing pixels, which keeps compute low.
+* **Video and multimodal understanding:** Video classification and summarization, and ongoing work that combines motion and audio cues to guide self-supervised video models.
+* **Training on everyday hardware:** Methods and tools that make training stable and practical on a single consumer GPU with 6–8 GB of memory.
+
+Selected work is below, most recent first. Jump to [Publications](#publications) or [Open-Source Projects](#open-source-projects). The full list is on [Google Scholar](https://scholar.google.com/citations?user=PNNFrAQAAAAJ&hl=en&view_op=list_works&sortby=pubdate){:target="_blank"}. Most of it was done with my colleagues at BHI-Research.
 
 ## Publications
 
