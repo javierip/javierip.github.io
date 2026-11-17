@@ -8,12 +8,6 @@ hide:
 
 The best way to reach me is by email: **[j.iparraguirre@computer.org](mailto:j.iparraguirre@computer.org)**
 
-I am happy to talk about:
-
-* **Research collaborations**, student projects, and thesis supervision
-* **Invited talks** on efficient AI, self-supervised video models, and the economics of small models
-* **AI leadership roles** (Chief AI Officer, VP of AI) and **technical advisory** work
-
 You can also find me on:
 
 * [LinkedIn](https://www.linkedin.com/in/jiparraguirre/){:target="_blank"}
