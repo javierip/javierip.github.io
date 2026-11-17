@@ -4,25 +4,61 @@ hide:
   - toc
 ---
 
-# Javier Iparraguirre
+# Javier Iparraguirre, Ph.D.
 
-<div style="text-align:center; margin-bottom: 1.5rem;" markdown>
-![Javier Iparraguirre](images/javier-iparraguirre.jpg){ width="180" style="border-radius: 50%;" }
+<div class="hero" markdown>
+
+![Javier Iparraguirre](images/javier-iparraguirre.jpg){ .hero-photo }
+
+<div class="hero-text" markdown>
+
+<p class="exec-subtitle">
+  Director de Machine Learning en Teladoc Health · Profesor en la UTN FRBB · BHI-Research
+</p>
+
+<div class="badge-row">
+  <span class="exec-badge">ML en Producción en Salud</span>
+  <span class="exec-badge">Modelos de Video Autosupervisados (JEPA)</span>
+  <span class="exec-badge">IA Eficiente en Hardware Cotidiano</span>
+  <span class="exec-badge">Doctor · Becario Fulbright</span>
 </div>
 
-Soy **Director de Machine Learning** en [Teladoc Health](https://www.teladochealth.com/){:target="_blank"}, donde lidero equipos que transforman la investigación y el desarrollo en resultados de negocio concretos. También soy **Profesor** en la [Universidad Tecnológica Nacional, Facultad Regional Bahía Blanca](https://www.frbb.utn.edu.ar/){:target="_blank"} e investigador del grupo [BHI-Research](https://bhi-research.github.io/){:target="_blank"}, donde mi trabajo se centra en la comprensión de video y en modelos eficientes y autosupervisados. Vivo en Bahía Blanca, Argentina.
+</div>
 
-[Investigación y publicaciones](projects.md){ .md-button .md-button--primary } [Contacto](contact.md){ .md-button }
+</div>
 
-!!! tip "Novedades"
-    Nuestro trabajo **pico-JEPA v2: ¿Cuándo Superan Muchos Modelos Pequeños a Uno Grande?** fue presentado en CACIC 2026 (octubre de 2026). Un ensamble de modelos diminutos de 3,4 M de parámetros supera a un modelo único por 5,1 puntos en una tarea de clasificación de video de 30 clases. [Página del proyecto](https://bhi-research.github.io/pico-jepa-v2/){:target="_blank"} · [Todas las publicaciones](projects.md)
+Soy **Director de Machine Learning** en [Teladoc Health](https://www.teladochealth.com/){:target="_blank"}, donde lidero equipos de machine learning que transforman la investigación en sistemas de producción confiables, que cumplen con las regulaciones y tienen un impacto medible en el negocio y en la atención clínica.
 
-## Áreas de investigación
+También soy **Profesor** en la [Universidad Tecnológica Nacional, Facultad Regional Bahía Blanca](https://www.frbb.utn.edu.ar/){:target="_blank"} y dirijo el grupo [BHI-Research](https://bhi-research.github.io/){:target="_blank"}. Nuestra investigación se centra en la **comprensión de video, el aprendizaje autosupervisado y los modelos pequeños y eficientes** que funcionan en el hardware que la gente ya tiene. Vivo en Bahía Blanca, Argentina.
 
-- Comprensión de video e IA multimodal
-- Aprendizaje autosupervisado y no supervisado (JEPA, resumen de video)
-- Modelos pequeños y eficientes que funcionan en hardware de uso cotidiano
-- Computación de alto rendimiento y optimización
+[Liderazgo](leadership.md){ .md-button .md-button--primary }
+[Investigación y publicaciones](research.md){ .md-button }
+[Contacto](contact.md){ .md-button }
+
+## En Qué Trabajo
+
+<div class="kpi-grid">
+  <div class="kpi-card">
+    <h4>Industria</h4>
+    <div class="kpi-value">ML en Producción</div>
+    <p>Liderazgo de equipos de ML, gobernanza y puesta en producción de modelos para productos clínicos y comerciales en Teladoc Health.</p>
+  </div>
+  <div class="kpi-card">
+    <h4>Eficiencia</h4>
+    <div class="kpi-value">Modelos Pequeños</div>
+    <p>Demostramos que ensambles de modelos compactos (3,4 M de parámetros cada uno) pueden superar a un modelo más grande con menor costo.</p>
+  </div>
+  <div class="kpi-card">
+    <h4>Investigación</h4>
+    <div class="kpi-value">Video e IA Multimodal</div>
+    <p>Modelos JEPA autosupervisados que aprenden a partir de video y herramientas de código abierto para resumen de video.</p>
+  </div>
+  <div class="kpi-card">
+    <h4>Docencia</h4>
+    <div class="kpi-value">Formación</div>
+    <p>Dirección de investigadores de grado y posgrado, y docencia en computación paralela en la UTN.</p>
+  </div>
+</div>
 
 ## Formación
 

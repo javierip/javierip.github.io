@@ -5,7 +5,13 @@ hide:
 
 # Investigación
 
-Trabajos seleccionados, del más reciente al más antiguo. Ir a [Publicaciones](#publicaciones) o a [Proyectos de código abierto](#proyectos-de-codigo-abierto). La lista completa está en [Google Scholar](https://scholar.google.com/citations?user=PNNFrAQAAAAJ&hl=es&view_op=list_works&sortby=pubdate){:target="_blank"}. La mayor parte fue realizada junto a mis colegas del grupo [BHI-Research](https://bhi-research.github.io/){:target="_blank"}.
+Mi investigación con el grupo **[BHI-Research](https://bhi-research.github.io/){:target="_blank"}** apunta a una pregunta práctica: ¿cómo puede la IA avanzada comprender video **sin** modelos enormes ni centros de datos? Trabajamos en tres líneas relacionadas:
+
+* **Modelos de mundo pequeños y eficientes (JEPA):** Las Joint-Embedding Predictive Architectures, como [nano-JEPA](https://github.com/BHI-Research/nano-jepa){:target="_blank"} y [pico-JEPA](https://github.com/BHI-Research/pico-JEPA){:target="_blank"}, aprenden prediciendo en un espacio de representaciones compacto en lugar de reconstruir píxeles, lo que mantiene bajo el costo de cómputo.
+* **Comprensión de video y multimodal:** Clasificación y resumen de video, y trabajo en curso que combina señales de movimiento y audio para guiar modelos de video autosupervisados.
+* **Entrenamiento en hardware cotidiano:** Métodos y herramientas que hacen que el entrenamiento sea estable y práctico en una sola GPU de consumo de 6–8 GB de memoria.
+
+A continuación, trabajos seleccionados, del más reciente al más antiguo. Ir a [Publicaciones](#publicaciones) o a [Proyectos de código abierto](#proyectos-de-codigo-abierto). La lista completa está en [Google Scholar](https://scholar.google.com/citations?user=PNNFrAQAAAAJ&hl=es&view_op=list_works&sortby=pubdate){:target="_blank"}. La mayor parte fue realizada junto a mis colegas de BHI-Research.
 
 ## Publicaciones
 

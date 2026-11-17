@@ -1,0 +1,344 @@
+/* ==========================================================================
+   Brand tokens
+   The palette uses primary: custom / accent: custom (mkdocs.yml), so every
+   color comes from here. Light mode first, dark mode ("slate") below.
+   ========================================================================== */
+
+/* [data-md-color-scheme="default"] is needed: Material sets the link color on
+   that selector, which would otherwise win over :root */
+:root,
+[data-md-color-scheme="default"] {
+  /* Header and tabs */
+  --md-primary-fg-color: #0f172a;
+  --md-primary-fg-color--light: #1e293b;
+  --md-primary-fg-color--dark: #020617;
+  --md-primary-bg-color: #ffffff;
+  --md-primary-bg-color--light: rgba(255, 255, 255, 0.7);
+
+  /* Hover / focus accent */
+  --md-accent-fg-color: #1e40af;
+  --md-accent-fg-color--transparent: rgba(37, 99, 235, 0.1);
+  --md-accent-bg-color: #ffffff;
+
+  /* Links (Material defaults this to the header color, which made links look like text) */
+  --md-typeset-a-color: #1d4ed8;
+
+  /* Footer */
+  --md-footer-bg-color: #0f172a;
+  --md-footer-bg-color--dark: #020617;
+
+  /* Site tokens */
+  --brand-link-hover: #1e40af;
+  --brand-button-bg: #1d4ed8;
+  --brand-button-bg-hover: #1e40af;
+  --brand-surface: #f8fafc;
+  --brand-border: rgba(15, 23, 42, 0.1);
+  --brand-border-strong: rgba(15, 23, 42, 0.22);
+  --brand-tint: rgba(37, 99, 235, 0.08);
+  --brand-badge-fg: #1e40af;
+  --brand-shadow: 0 1px 2px rgba(15, 23, 42, 0.04), 0 4px 16px rgba(15, 23, 42, 0.06);
+  --brand-shadow-hover: 0 2px 4px rgba(15, 23, 42, 0.06), 0 10px 28px rgba(15, 23, 42, 0.1);
+}
+
+[data-md-color-scheme="slate"] {
+  --md-hue: 222;
+  --md-default-bg-color: #0b1120;
+  --md-code-bg-color: #111a2e;
+
+  --md-primary-fg-color: #0f172a;
+  --md-primary-fg-color--light: #1e293b;
+  --md-primary-fg-color--dark: #020617;
+
+  --md-accent-fg-color: #93c5fd;
+  --md-accent-fg-color--transparent: rgba(96, 165, 250, 0.12);
+  --md-accent-bg-color: #0b1120;
+
+  --md-typeset-a-color: #60a5fa;
+
+  --md-footer-bg-color: #0f172a;
+  --md-footer-bg-color--dark: #070b16;
+
+  --brand-link-hover: #93c5fd;
+  --brand-button-bg: #2563eb;
+  --brand-button-bg-hover: #3b82f6;
+  --brand-surface: #111a2e;
+  --brand-border: rgba(148, 163, 184, 0.14);
+  --brand-border-strong: rgba(148, 163, 184, 0.3);
+  --brand-tint: rgba(96, 165, 250, 0.1);
+  --brand-badge-fg: #93c5fd;
+  --brand-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --brand-shadow-hover: 0 8px 24px rgba(0, 0, 0, 0.45);
+}
+
+::selection {
+  background: rgba(37, 99, 235, 0.22);
+}
+
+/* ==========================================================================
+   Layout and typography
+   ========================================================================== */
+
+/* Keep lines at a comfortable reading width on large screens */
+@media screen and (min-width: 60em) {
+  .md-content__inner {
+    max-width: 46rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.md-typeset {
+  line-height: 1.7;
+}
+
+.md-typeset h1 {
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  color: var(--md-default-fg-color);
+  margin-bottom: 0.8em;
+}
+
+.md-typeset h2 {
+  font-weight: 650;
+  letter-spacing: -0.015em;
+  margin-top: 2.2em;
+  padding-bottom: 0.35em;
+  border-bottom: 1px solid var(--brand-border);
+}
+
+.md-typeset h3 {
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+[data-md-color-scheme="slate"] .md-typeset h1,
+[data-md-color-scheme="slate"] .md-typeset h2,
+[data-md-color-scheme="slate"] .md-typeset h3,
+[data-md-color-scheme="slate"] .kpi-card .kpi-value {
+  color: #e2e8f0;
+}
+
+/* Header: flat with a hairline instead of a drop shadow */
+.md-header,
+.md-header--shadow {
+  box-shadow: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.md-tabs {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+/* ==========================================================================
+   Links
+   ========================================================================== */
+
+.md-typeset a:not(.md-button):not(.headerlink) {
+  color: var(--md-typeset-a-color);
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.2em;
+  transition: color 125ms, text-decoration-color 125ms;
+}
+
+.md-typeset a:not(.md-button):not(.headerlink):hover,
+.md-typeset a:not(.md-button):not(.headerlink):focus {
+  color: var(--brand-link-hover);
+  text-decoration-color: currentColor;
+}
+
+/* ==========================================================================
+   Buttons
+   ========================================================================== */
+
+.md-typeset .md-button {
+  margin: 0.25rem 0.5rem 0.25rem 0;
+  padding: 0.55em 1.4em;
+  border: 1px solid var(--brand-border-strong);
+  border-radius: 0.4rem;
+  color: var(--md-typeset-a-color);
+  font-weight: 600;
+  transition: color 125ms, background-color 125ms, border-color 125ms;
+}
+
+.md-typeset .md-button:hover,
+.md-typeset .md-button:focus {
+  background-color: var(--brand-tint);
+  border-color: var(--md-typeset-a-color);
+  color: var(--md-typeset-a-color);
+}
+
+.md-typeset .md-button--primary {
+  background-color: var(--brand-button-bg);
+  border-color: var(--brand-button-bg);
+  color: #ffffff;
+}
+
+.md-typeset .md-button--primary:hover,
+.md-typeset .md-button--primary:focus {
+  background-color: var(--brand-button-bg-hover);
+  border-color: var(--brand-button-bg-hover);
+  color: #ffffff;
+}
+
+/* ==========================================================================
+   Home page hero: photo + subtitle + badges
+   ========================================================================== */
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1.75rem;
+  margin-bottom: 1.75rem;
+}
+
+.hero > p {
+  margin: 0;
+  flex-shrink: 0;
+}
+
+.hero-photo {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid var(--md-default-bg-color);
+  box-shadow: 0 0 0 1px var(--brand-border-strong), var(--brand-shadow);
+}
+
+.hero-text {
+  flex: 1 1 280px;
+}
+
+.exec-subtitle {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: var(--md-default-fg-color--light);
+  margin: 0 0 1rem 0;
+  line-height: 1.5;
+}
+
+.badge-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.exec-badge {
+  background: var(--brand-tint);
+  color: var(--brand-badge-fg);
+  border: 1px solid var(--brand-border-strong);
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+/* ==========================================================================
+   Focus-area cards
+   ========================================================================== */
+
+.kpi-grid {
+  display: grid;
+  /* 2 columns on desktop, 1 on phones (min() avoids overflow on narrow screens) */
+  grid-template-columns: repeat(auto-fit, minmax(min(16rem, 100%), 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0 2rem 0;
+}
+
+.kpi-card {
+  padding: 1.25rem 1.25rem 1.35rem;
+  border-radius: 0.6rem;
+  border: 1px solid var(--brand-border);
+  border-top: 3px solid var(--brand-button-bg);
+  background: var(--brand-surface);
+  box-shadow: var(--brand-shadow);
+  transition: transform 150ms ease, box-shadow 150ms ease;
+}
+
+.kpi-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--brand-shadow-hover);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .kpi-card,
+  .kpi-card:hover {
+    transition: none;
+    transform: none;
+  }
+}
+
+.md-typeset .kpi-card h4 {
+  margin: 0 0 0.4rem 0;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--md-typeset-a-color);
+}
+
+.kpi-card .kpi-value {
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  margin-bottom: 0.4rem;
+  line-height: 1.25;
+}
+
+.md-typeset .kpi-card p {
+  margin: 0;
+  font-size: 0.8rem;
+  line-height: 1.6;
+  color: var(--md-default-fg-color--light);
+}
+
+/* ==========================================================================
+   Admonitions: match the "tip" boxes (Latest / Novedades) to the brand
+   ========================================================================== */
+
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: 0.5rem;
+  box-shadow: var(--brand-shadow);
+  font-size: 0.8rem;
+}
+
+.md-typeset .admonition.tip,
+.md-typeset details.tip {
+  border-color: var(--brand-button-bg);
+}
+
+.md-typeset .tip > .admonition-title,
+.md-typeset .tip > summary {
+  background-color: var(--brand-tint);
+}
+
+.md-typeset .tip > .admonition-title::before,
+.md-typeset .tip > summary::before {
+  background-color: var(--brand-button-bg);
+}
+
+/* ==========================================================================
+   Tables (Leadership competencies)
+   ========================================================================== */
+
+.md-typeset table:not([class]) {
+  border: 1px solid var(--brand-border);
+  border-radius: 0.5rem;
+  box-shadow: none;
+  font-size: 0.75rem;
+}
+
+.md-typeset table:not([class]) th {
+  background-color: var(--brand-surface);
+  font-weight: 600;
+}
+
+.md-typeset table:not([class]) td {
+  border-top: 1px solid var(--brand-border);
+  vertical-align: top;
+}

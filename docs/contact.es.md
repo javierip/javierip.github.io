@@ -8,9 +8,17 @@ hide:
 
 La mejor forma de contactarme es por correo electrónico: **[j.iparraguirre@computer.org](mailto:j.iparraguirre@computer.org)**
 
+Me interesa conversar sobre:
+
+* **Colaboraciones de investigación**, proyectos de estudiantes y dirección de tesis
+* **Charlas y conferencias** sobre IA eficiente, modelos de video autosupervisados y la economía de los modelos pequeños
+* **Roles de liderazgo en IA** (Chief AI Officer, VP de IA) y **asesoría técnica**
+
 También podés encontrarme en:
 
-- [LinkedIn](https://www.linkedin.com/in/jiparraguirre/){:target="_blank"}
-- [Google Scholar](https://scholar.google.com/citations?user=PNNFrAQAAAAJ&hl=es&view_op=list_works&sortby=pubdate){:target="_blank"}
-- [GitHub](https://github.com/javierip){:target="_blank"} · [BHI-Research](https://github.com/BHI-Research){:target="_blank"}
-- [X](https://x.com/javieripa){:target="_blank"}
+* [LinkedIn](https://www.linkedin.com/in/jiparraguirre/){:target="_blank"}
+* [Google Scholar](https://scholar.google.com/citations?user=PNNFrAQAAAAJ&hl=es&view_op=list_works&sortby=pubdate){:target="_blank"}
+* [GitHub](https://github.com/javierip){:target="_blank"} · [BHI-Research](https://github.com/BHI-Research){:target="_blank"}
+* [X](https://x.com/javieripa){:target="_blank"}
+
+Vivo en Bahía Blanca, Argentina, y trabajo con equipos de todo el mundo, de forma remota y con viajes internacionales.
