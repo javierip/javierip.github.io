@@ -8,11 +8,6 @@ hide:
 
 La mejor forma de contactarme es por correo electrónico: **[j.iparraguirre@computer.org](mailto:j.iparraguirre@computer.org)**
 
-Me interesa conversar sobre:
-
-* **Colaboraciones de investigación**, proyectos de estudiantes y dirección de tesis
-* **Charlas y conferencias** sobre IA eficiente, modelos de video autosupervisados y la economía de los modelos pequeños
-* **Roles de liderazgo en IA** (Chief AI Officer, VP de IA) y **asesoría técnica**
 
 También podés encontrarme en:
 
